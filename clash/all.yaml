@@ -1,9 +1,3 @@
-#
-#-------------------------------------------------------------#
-#  创建时间：2023-03-03 22:53:08
-#  节点数量：155
-#-------------------------------------------------------------#
-#
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -11,161 +5,146 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"v2cross.com_1","server":"172.99.188.71","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_2","ws-opts":{"path":"/shirker","headers":{"host":"buyvm.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_3","server":"23.105.199.160","port":"37584","uuid":"61914893-393a-4685-fc2d-13328bd8e491","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_4","ws-opts":{"path":"/usvcus","headers":{"host":"us-vir.minl.me"}},"server":"us-vir.minl.me","port":"443","uuid":"2ddcf12d-52fa-4e09-b4f1-c52d5cbee69b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_5","server":"107.182.189.203","port":"29312","uuid":"caf60e58-675c-4f43-fc69-b672fcb4b7ff","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_6","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"v2cross.com_7","server":"172.99.190.149","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"vmess","name":"v2cross.com_8","ws-opts":{"path":"/","headers":{"host":"hkbgp-mg.iepl.nbsd.us"}},"server":"pro01.my1188.org","port":"3023","uuid":"0f01682d-2454-3fd5-beec-53ea4cec7e0c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_9","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.155","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_10","ws-opts":{"path":"/54321"},"server":"mjj3011.hjdn.tk","port":"443","uuid":"06371d67-d976-4c84-ecdf-d7c989e80155","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_11","server":"85.208.108.60","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"v2cross.com_12","server":"167.88.61.213","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"vmess","name":"v2cross.com_13","ws-opts":{"path":"/shirker","headers":{"host":"buyvm.sharecentre.online"}},"server":"cf-lt-dns.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_14","server":"85.208.108.60","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_15","ws-opts":{"path":"/","headers":{"host":"cs1.bbcloud.life"}},"server":"cs1.bbcloud.life","port":"35459","uuid":"026056ab-a315-4eb9-babf-f95d473e621c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_16","server":"38.64.138.145","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_17","server":"172.99.188.99","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_18","server":"85.208.108.60","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"v2cross.com_19","server":"85.208.108.60","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_20","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.30.191.6","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_21","ws-opts":{"path":"/","headers":{"host":"usdo.tzccifq.ga"}},"server":"usdo.tzccifq.ga","port":"443","uuid":"58eb724d-5a95-4b9c-851e-2cb3b408e85f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_22","server":"85.208.108.60","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"v2cross.com_23","server":"172.99.190.39","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"vmess","name":"v2cross.com_24","ws-opts":{"path":"/ray?ed=2048","headers":{"host":"2woid.weigogogo.cf"}},"server":"icook.hk","port":"80","uuid":"3eb05cb6-d2e1-4a31-9f82-514cfa98fe15","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_1","server":"149.202.82.172","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"v2cross.com_2","server":"134.195.196.149","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"v2cross.com_3","server":"38.68.135.18","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"v2cross.com_4","server":"172.99.188.99","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"v2cross.com_5","server":"85.208.108.22","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"v2cross.com_6","ws-opts":{"path":"/path/120208301422","headers":{"host":"www.48816626.xyz"}},"server":"67.21.72.44","port":"443","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_7","ws-opts":{"path":"/huhublog","headers":{"host":"zhuyong.hucloud-dns.xyz"}},"server":"zhuyong.hucloud-dns.xyz","port":"443","uuid":"9a18cbb1-81d2-4720-9f09-46ea276b6ddb","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_8","ws-opts":{"path":"/"},"server":"144.34.175.46","port":"80","uuid":"751192f4-437e-4ea9-f34f-4f0252509267","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_9","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.24.108.8","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_10","server":"172.99.188.99","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"v2cross.com_11","server":"172.99.190.87","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"v2cross.com_12","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"190.93.244.3","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_13","server":"38.68.135.18","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"vmess","name":"v2cross.com_14","server":"107.182.189.203","port":"29312","uuid":"caf60e58-675c-4f43-fc69-b672fcb4b7ff","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"v2cross.com_15","server":"145.239.1.100","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_16","server":"38.91.102.30","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"v2cross.com_17","server":"167.88.63.79","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"v2cross.com_18","server":"85.208.108.60","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"vmess","name":"v2cross.com_19","ws-opts":{"path":"/UMW36262","headers":{"host":"frgt1.ssr-free2.xyz"}},"server":"23.227.38.11","port":"443","uuid":"9379fea0-006d-4fd3-8e35-d45a5af72aa2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_20","ws-opts":{"path":"/","headers":{"host":"usdo.tzccifq.ga"}},"server":"usdo.tzccifq.ga","port":"443","uuid":"58eb724d-5a95-4b9c-851e-2cb3b408e85f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_21","server":"212.38.189.174","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"v2cross.com_22","server":"38.68.135.18","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"v2cross.com_23","server":"38.68.135.18","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"v2cross.com_24","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"v2cross.com_25","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"172.67.45.144","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_26","server":"18.191.178.214","port":"39999","uuid":"bcc07473-9b9b-4542-a870-9d9b54b060aa","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_27","server":"38.68.135.18","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"v2cross.com_28","server":"85.208.108.60","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"v2cross.com_29","server":"167.88.63.79","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_30","ws-opts":{"path":"/vmess-ws/frqwdfasfg-globalssh","headers":{"host":"vmess-ctb-us01.globalssh.xyz"}},"server":"45.85.119.1","port":"443","uuid":"de1451f5-cb0c-430b-ab71-f42453e6b655","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_31","ws-opts":{"path":"/ray","headers":{"host":"3woi.weigogogo.tk"}},"server":"cf.515188.xyz","port":"80","uuid":"05ab5fed-281d-4882-c29c-3c6dc8434fb0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_32","server":"167.88.63.79","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"v2cross.com_33","server":"185.160.26.91","port":1662,"cipher":"chacha20-ietf-poly1305","password":"Xs9ORT4j65b8HreZrg0p"}
-  - {"type":"vmess","name":"v2cross.com_34","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"172.67.199.34","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_35","server":"185.160.26.91","port":1661,"cipher":"chacha20-ietf-poly1305","password":"Xs9ORT4j65b8HreZrg0p"}
-  - {"type":"ss","name":"v2cross.com_36","server":"172.99.190.39","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_37","server":"212.38.189.174","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"vmess","name":"v2cross.com_38","ws-opts":{"path":"/789"},"server":"103.117.101.104","port":"51298","uuid":"899c4e65-4129-4e9b-f65f-058f469bdd90","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_39","server":"172.99.190.87","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_40","server":"38.68.135.18","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"v2cross.com_41","server":"38.121.43.71","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"vmess","name":"v2cross.com_42","ws-opts":{"path":"/miku","headers":{"host":"jp1.qwqq.cf"}},"server":"172.67.67.170","port":"80","uuid":"a50bce81-cda4-493e-a1bf-fb950c0eac4e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_43","server":"jp-direct.node002.xyz","port":"445","uuid":"0f01682d-2454-3fd5-beec-53ea4cec7e0c","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"v2cross.com_44","ws-opts":{"path":"/hk3/getData","headers":{"host":"hk3.linkeden.co"}},"server":"43.159.196.4","port":"46994","uuid":"00e35854-8706-470e-af31-e30e557e7e5e","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_45","server":"185.160.26.91","port":1663,"cipher":"chacha20-ietf-poly1305","password":"Xs9ORT4j65b8HreZrg0p"}
-  - {"type":"ss","name":"v2cross.com_46","server":"85.208.108.60","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"v2cross.com_47","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v2.shwjfkw.cn"}},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_48","server":"85.208.108.60","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"vmess","name":"v2cross.com_49","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}},"server":"www.udemy.com","port":"8080","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_50","server":"85.208.108.60","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"v2cross.com_51","ws-opts":{"path":"/","headers":{"host":"25.v2-ray.cyou"}},"server":"25.v2-ray.cyou","port":"23625","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_52","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.155","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_53","server":"85.208.108.18","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"vmess","name":"v2cross.com_54","ws-opts":{"path":"/","headers":{"host":"arsalan.arsalanv3.sbs"}},"server":"arsalan.arsalanv3.sbs","port":"2095","uuid":"c219b33f-f3c3-4f70-9e12-79b4618a210e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_55","server":"172.99.190.61","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_56","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"23.227.38.23","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_57","server":"145.239.1.100","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_58","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"172.67.164.123","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_59","server":"sc.svip8.cn","port":"10000","uuid":"d89ccf42-e9e9-4a0d-8230-8bee621f970e","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_60","ws-opts":{"path":"/"},"server":"45.59.187.42","port":"80","uuid":"761cf552-a1c3-4fc2-f2dd-a90897105412","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_61","server":"172.99.190.87","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_62","ws-opts":{"path":"/shirker"},"server":"sg-1.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_63","server":"85.208.108.59","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"vmess","name":"v2cross.com_64","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"hk-iv.somnode.top"}},"server":"hk-iv.somnode.top","port":"80","uuid":"d41c193f-52ca-3ef9-9cf5-e7d50330f26e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_65","server":"129.159.41.233","port":"32586","uuid":"341a9182-c423-499c-c46e-d17838b29037","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_66","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}},"server":"cf-lt.sharecentre.online","port":"8880","uuid":"e59bd762-dacd-445c-8e2a-e1c5812949cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_67","server":"145.239.1.100","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"v2cross.com_68","server":"gdyd.aikun.online","port":27429,"cipher":"aes-128-gcm","password":"d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3"}
-  - {"type":"ss","name":"v2cross.com_69","server":"38.68.135.18","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_70","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.30.188.121","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_71","ws-opts":{"path":"/shirker","headers":{"host":"ca1.sharecentre.online"}},"server":"159.65.161.124","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_72","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_73","ws-opts":{"path":"/a727905abc91/","headers":{"host":"www.sakuradream.top"}},"server":"www.sakuradream.top","port":"12443","uuid":"e4c8264b-3e51-4fa3-a95b-fa7309c82d5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_74","server":"149.202.82.172","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"v2cross.com_75","ws-opts":{"path":"/sbga","headers":{"host":"vc-ca1.misakano.ml"}},"server":"shopify.com","port":"443","uuid":"9f7566ff-ef75-4b10-88fc-ec31c6eda5a4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_76","ws-opts":{"path":"/vmess"},"server":"51.159.143.143","port":"80","uuid":"4dd396a1-0fb2-4e71-8c82-d3654d7940da","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_77","server":"81.90.189.41","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"v2cross.com_78","server":"212.38.189.174","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_79","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"v2cross.com_80","server":"169.197.141.187","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"vmess","name":"v2cross.com_81","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip","port":"20004","uuid":"9589b882-569a-43c5-924e-a9e852d4ff9e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_82","server":"38.75.136.21","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_83","server":"185.160.26.91","port":1664,"cipher":"chacha20-ietf-poly1305","password":"Xs9ORT4j65b8HreZrg0p"}
-  - {"type":"vmess","name":"v2cross.com_84","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"uk.cloudflare.quest"}},"server":"no.aries.ovh","port":"2052","uuid":"bcc07473-9b9b-4542-a870-9d9b54b060aa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_85","ws-opts":{"path":"/shirker","headers":{"host":"buyvm.sharecentre.online"}},"server":"buyvm.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_26","ws-opts":{"path":"/huhu","headers":{"host":"hucloud.tk"}},"server":"hucloud.tk","port":"443","uuid":"2df3ed4a-4313-45f9-b742-2f02ce593a6e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_27","ws-opts":{"path":"/vmws"},"server":"104.251.123.110","port":"80","uuid":"2cd65070-bb70-11ed-b232-1239d0255272","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_28","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"v2cross.com_29","server":"172.99.188.71","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"v2cross.com_30","ws-opts":{"path":"/bb","headers":{"host":"hao.huaqian.icu"}},"server":"172.67.207.209","port":"2082","uuid":"082122a2-8479-4089-82f0-f32ba5fc5426","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_31","ws-opts":{"path":"/manageit"},"server":"sv3.adsensor.top","port":"80","uuid":"7a5af201-b588-4f13-9f02-185c68acd89b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"v2cross.com_32","server":"dubai-m.4422331.xyz","port":10086,"password":"4134219f-2384-449c-92e9-50fe8474c30a","udp":true,"skip-cert-verify":true,"sni":"dubai-m.4422331.xyz","network":"tcp"}
+  - {"type":"trojan","name":"v2cross.com_33","server":"usajs.stablize.top","port":443,"password":"29aa9820-78aa-43de-a477-587747ce21a3","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"ss","name":"v2cross.com_34","server":"85.208.108.59","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"v2cross.com_35","server":"85.208.108.18","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"vmess","name":"v2cross.com_36","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.v2ray.online"}},"server":"Kansas.v2ray.online","port":"443","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_37","ws-opts":{"path":"/huhublog","headers":{"host":"zhuyong.hucloud-dns.xyz"}},"server":"173.245.49.8","port":"443","uuid":"9a18cbb1-81d2-4720-9f09-46ea276b6ddb","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_38","server":"172.99.188.99","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"vmess","name":"v2cross.com_39","ws-opts":{"path":"/","headers":{"host":"let.eccoedmond.shop"}},"server":"let.eccoedmond.shop","port":"2096","uuid":"da701bc6-b7ea-4de9-b706-dd4b8842a94d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_40","server":"85.208.108.93","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"v2cross.com_41","server":"85.208.108.60","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"vmess","name":"v2cross.com_42","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.30.191.2","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_43","server":"167.88.63.79","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"v2cross.com_44","ws-opts":{"path":"/shirker"},"server":"lv1.sharecentrepro.org","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_45","ws-opts":{"path":"/vmess"},"server":"129.146.133.49","port":"443","uuid":"35c83a8f-c627-48a4-c280-ff0e46600dfe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_46","ws-opts":{"path":"/","headers":{"host":"de.dgmlk.com"}},"server":"de.dgmlk.com","port":"8080","uuid":"4ea07d01-1ddc-48ba-bd8a-064a0385cdae","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_47","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}},"server":"www.udemy.com","port":"8080","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_48","server":"85.208.108.60","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"v2cross.com_49","server":"149.202.82.172","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"trojan","name":"v2cross.com_50","server":"us.disnet.gq","port":443,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","udp":true,"skip-cert-verify":true,"sni":"us.disnet.gq","network":"tcp"}
+  - {"type":"vmess","name":"v2cross.com_51","ws-opts":{"path":"/yfjc/nl2?ed=2048","headers":{"host":"nl2.yfjc.sbs"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"3855b736-bf24-461f-b5b9-1d3f04484b37","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_52","server":"85.208.108.93","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"vmess","name":"v2cross.com_53","server":"129.159.41.233","port":"32586","uuid":"341a9182-c423-499c-c46e-d17838b29037","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"v2cross.com_54","ws-opts":{"path":"/index","headers":{"host":"a8c74c6c.ikunxiao.top"}},"server":"a8c74c6c.ikunxiao.top","port":"2096","uuid":"72fd33d5-5c1a-4193-96c6-665fc20b71c1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"v2cross.com_55","server":"prus2.k55779.cyou","port":26672,"password":"6nVzl-mgck26FqvBByHLF5lsCpRkvGDrhDpz3NkbGkizyH7O","udp":true,"skip-cert-verify":true,"sni":"prus2.k55779.cyou","network":"tcp"}
+  - {"type":"ss","name":"v2cross.com_56","server":"172.99.188.99","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_57","server":"195.154.200.150","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"vmess","name":"v2cross.com_58","ws-opts":{"path":"/VQi4poSU/","headers":{"host":"ap.utopub.com"}},"server":"ap.utopub.com","port":"443","uuid":"a07030f3-a9e8-4e46-8d94-604fd70a8816","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"v2cross.com_59","server":"aws-hk01.aikun.online","port":7045,"password":"c9c498df-683b-40b3-a1cb-b574c36f9433","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"ss","name":"v2cross.com_60","server":"85.208.108.60","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"vmess","name":"v2cross.com_61","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.24.108.8","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_62","server":"85.208.108.60","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"v2cross.com_63","server":"85.208.108.60","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"v2cross.com_64","server":"172.99.190.61","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"v2cross.com_65","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.30.191.6","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_66","server":"145.239.1.100","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"v2cross.com_67","server":"85.208.108.60","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"v2cross.com_68","ws-opts":{"path":"/@v2rayNG_VPNN","headers":{"host":"3.arsalanv2.sbs"}},"server":"avalpardakht.com","port":"80","uuid":"900c7473-d9a8-441f-9925-9d2ec66ddc23","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_69","server":"38.114.114.19","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_70","server":"38.114.114.19","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"v2cross.com_71","server":"38.64.138.145","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_72","server":"169.197.141.187","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"v2cross.com_73","server":"172.99.188.71","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"v2cross.com_74","server":"85.208.108.60","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"v2cross.com_75","ws-opts":{"path":"/mR17oBKzZ7","headers":{"host":"d.pgypgykmoljklj.xyz"}},"server":"172.66.44.197","port":"443","uuid":"fa4cb529-3ac9-4268-bb04-ed4253813508","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_76","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"172.67.135.55","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_77","server":"85.208.108.60","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_78","server":"38.68.135.18","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_79","server":"172.99.190.39","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_80","server":"85.208.108.60","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"vmess","name":"v2cross.com_81","ws-opts":{"path":"/manageit","headers":{"host":"sv3.adsensor.top"}},"server":"sv3.adsensor.top","port":"80","uuid":"7a5af201-b588-4f13-9f02-185c68acd89b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_82","ws-opts":{"path":"/vmws","headers":{"host":"us1.socifiles.com"}},"server":"us1.socifiles.com","port":"80","uuid":"ab07adf0-baac-11ed-bc5a-1239d0255272","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_83","server":"85.208.108.60","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"v2cross.com_84","server":"85.208.108.60","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"trojan","name":"v2cross.com_85","server":"seed.daffodil.engineer","port":34104,"password":"oFW8yaRFnz","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"ss","name":"v2cross.com_86","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_87","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo.cloudflare.quest"}},"server":"no.aries.ovh","port":"2052","uuid":"bcc07473-9b9b-4542-a870-9d9b54b060aa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_88","server":"172.99.190.87","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_89","server":"85.208.108.93","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"vmess","name":"v2cross.com_90","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"23.227.38.26","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_91","server":"169.197.142.48","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"vmess","name":"v2cross.com_92","ws-opts":{"path":"/path/031730091420"},"server":"170.178.179.189","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_93","server":"85.208.108.60","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"v2cross.com_94","server":"38.68.135.18","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_95","ws-opts":{"path":"/huhu","headers":{"host":"hucloud.tk"}},"server":"hucloud.tk","port":"443","uuid":"2df3ed4a-4313-45f9-b742-2f02ce593a6e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_96","server":"38.75.136.21","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_97","ws-opts":{"path":"/KTR","headers":{"host":"2.arvanktbr.store"}},"server":"173.245.59.168","port":"8080","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_98","server":"38.68.135.18","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"v2cross.com_99","server":"38.68.135.18","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"v2cross.com_100","server":"85.208.108.60","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_101","ws-opts":{"path":"/path/120306182525","headers":{"host":"www.66728533.xyz"}},"server":"107.167.31.194","port":"443","uuid":"17fa3c74-f3c2-4b37-bf53-c6640d6982eb","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_102","ws-opts":{"path":"/usvcus","headers":{"host":"us-vir.minl.me"}},"server":"us-vir.minl.me","port":"443","uuid":"2ddcf12d-52fa-4e09-b4f1-c52d5cbee69b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_103","server":"172.99.188.99","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_104","server":"172.99.188.99","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"v2cross.com_105","server":"38.143.66.99","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_106","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"23.227.38.26","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_107","ws-opts":{"path":"/"},"server":"144.34.175.46","port":"80","uuid":"751192f4-437e-4ea9-f34f-4f0252509267","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_108","ws-opts":{"path":"/shirker","headers":{"host":"buyvm-ny.sharecentre.online"}},"server":"buyvm-ny.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_109","server":"85.208.108.60","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_110","ws-opts":{"path":"/shirker","headers":{"host":"kh.sharecentre.online"}},"server":"kh.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_111","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.20","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_112","ws-opts":{"path":"/"},"server":"123.249.101.15","port":"19709","uuid":"2f278a45-940a-46c1-c886-77f3b2d33987","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_113","server":"85.208.108.59","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_114","server":"85.208.108.60","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"v2cross.com_115","server":"38.114.114.19","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_116","server":"85.208.108.18","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"trojan","name":"v2cross.com_117","server":"asia1.oceis.net","port":443,"password":"cf2af470-b8f1-11ed-b133-205c6d5f5d78","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_118","ws-opts":{"path":"/shirker","headers":{"host":"ca1.sharecentre.online"}},"server":"ca1.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_119","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.18","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_120","ws-opts":{"path":"/path/120208301422","headers":{"host":"www.48816626.xyz"}},"server":"67.21.72.44","port":"443","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_87","server":"85.208.108.60","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"vmess","name":"v2cross.com_88","ws-opts":{"path":"/KTR","headers":{"host":"4.arvanktbr.store"}},"server":"173.245.59.168","port":"8080","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_89","server":"85.208.108.59","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_90","server":"172.99.190.39","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_91","server":"212.38.189.174","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_92","server":"38.121.43.71","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"vmess","name":"v2cross.com_93","ws-opts":{"path":"/@v2rayNG_VPNN","headers":{"host":"1.arsalanv2.sbs"}},"server":"avalpardakht.com","port":"80","uuid":"8c7135d1-770e-4a61-8005-37193e67018d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_94","server":"172.99.190.87","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_95","server":"149.202.82.172","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"v2cross.com_96","server":"172.99.188.99","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"vmess","name":"v2cross.com_97","ws-opts":{"path":"/path/031730091420"},"server":"170.178.179.189","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_98","server":"81.90.189.41","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"v2cross.com_99","server":"85.208.108.18","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"vmess","name":"v2cross.com_100","ws-opts":{"path":"/bb","headers":{"host":"hao.huaqian.icu"}},"server":"172.67.46.131","port":"2082","uuid":"082122a2-8479-4089-82f0-f32ba5fc5426","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_101","server":"172.99.190.149","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_102","server":"145.239.1.100","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_103","server":"85.208.108.60","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"v2cross.com_104","server":"85.208.108.60","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"v2cross.com_105","ws-opts":{"path":"/path/353021140201"},"server":"74.217.179.186","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_106","server":"38.75.136.21","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"v2cross.com_107","server":"169.197.142.48","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"vmess","name":"v2cross.com_108","ws-opts":{"path":"/path/031730091420"},"server":"104.233.191.182","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_109","ws-opts":{"path":"/roewesu","headers":{"host":"suzhihan.eu.org"}},"server":"suzhihan.eu.org","port":"443","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_110","server":"38.143.66.99","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_111","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"vmess","name":"v2cross.com_112","ws-opts":{"path":"/graphql","headers":{"host":"s245.rpscloud3.cloud"}},"server":"s245.rpscloud3.cloud","port":"80","uuid":"d65ca664-72d3-4a14-a836-00eadd0df46e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_113","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.19","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_114","ws-opts":{"path":"/reffs7y26g0ua","headers":{"host":"surongwei.eu.org"}},"server":"surongwei.eu.org","port":"443","uuid":"6093eefb-7ab6-41df-aba0-d5fa58147e10","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_115","server":"38.68.135.18","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"v2cross.com_116","server":"38.121.43.71","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"v2cross.com_117","server":"85.208.108.60","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"vmess","name":"v2cross.com_118","ws-opts":{"path":"/","headers":{"host":"new6.hucloud-dns.xyz"}},"server":"new6.hucloud-dns.xyz","port":"443","uuid":"0a5dc877-0211-4352-f73a-8fbdae81d673","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_119","server":"38.68.135.18","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"v2cross.com_120","server":"167.88.61.213","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
   - {"type":"ss","name":"v2cross.com_121","server":"38.75.136.21","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"vmess","name":"v2cross.com_122","ws-opts":{"path":"/","headers":{"host":"zzsg.nmsl.pics"}},"server":"103.21.244.173","port":"80","uuid":"f7738290-ba04-4dd1-b4f3-e6863a9e1c8a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_123","server":"85.208.108.60","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"vmess","name":"v2cross.com_124","ws-opts":{"path":"/vmessws","headers":{"host":"1.239000.xyz"}},"server":"172.66.41.99","port":"443","uuid":"80e6f8a9-6620-4b63-a254-994381d99ca3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_125","server":"149.202.82.172","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_126","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"124.222.189.225","port":"80","uuid":"a8c9ad5b-1f58-4234-b5fe-a895bee9a047","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_127","ws-opts":{"path":"/path/173418141123","headers":{"host":"www.17080100.xyz"}},"server":"67.21.72.41","port":"443","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_128","server":"38.91.102.72","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"vmess","name":"v2cross.com_129","ws-opts":{"path":"/sbga","headers":{"host":"vc-ca1.misakano.ml"}},"server":"shopify.com","port":"443","uuid":"9f7566ff-ef75-4b10-88fc-ec31c6eda5a4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_130","server":"145.239.1.100","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_131","server":"38.91.102.30","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"v2cross.com_132","server":"85.208.108.60","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"v2cross.com_133","server":"172.99.190.39","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_134","server":"212.38.189.174","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"vmess","name":"v2cross.com_135","server":"sc.svip8.cn","port":"10000","uuid":"dab765bb-0d68-40f2-a27a-ba78551844cf","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_136","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}},"server":"106.12.168.13","port":"13156","uuid":"9bf4cba4-9e9e-4da4-8e65-f7c487c539df","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_137","server":"38.68.135.18","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"v2cross.com_138","server":"85.208.108.93","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"v2cross.com_139","server":"149.202.82.172","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"v2cross.com_140","server":"85.208.108.22","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_141","ws-opts":{"path":"/shirker","headers":{"host":"buyvm.sharecentre.online"}},"server":"cf-yd-dns.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_142","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"23.227.38.24","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_143","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.19","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_144","server":"38.68.135.18","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"v2cross.com_145","server":"85.208.108.60","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"vmess","name":"v2cross.com_146","ws-opts":{"path":"/chat","headers":{"host":"vjp2.0bad.com"}},"server":"vjp2.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_147","server":"85.208.108.60","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"v2cross.com_148","server":"172.99.190.149","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_149","server":"85.208.108.60","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"v2cross.com_150","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"sg-gcore.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_151","server":"38.143.66.99","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"v2cross.com_152","server":"195.154.200.150","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"v2cross.com_153","ws-opts":{"path":"/54321"},"server":"mjj3011.hjdn.tk","port":"443","uuid":"06371d67-d976-4c84-ecdf-d7c989e80155","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_154","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.19","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_155","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"172.67.205.70","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_122","ws-opts":{"path":"/WKtzeN11GLqwVNBTp9mX","headers":{"host":"finland1.yj2022.ga"}},"server":"finland1.yj2022.ga","port":"443","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_123","ws-opts":{"path":"/nguevws","headers":{"host":"dd3.1808.cf"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"a4921a75-0991-4d81-9721-8e45d2e31905","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_124","server":"212.38.189.174","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"v2cross.com_125","server":"85.208.108.60","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"v2cross.com_126","server":"172.99.188.99","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"v2cross.com_127","ws-opts":{"path":"/@v2rayNG_VPNN","headers":{"host":"2.arsalanv2.sbs"}},"server":"avalpardakht.com","port":"80","uuid":"1fc0c185-6050-4b89-eb50-876e1915e1ce","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_128","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"172.67.169.131","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"v2cross.com_129","server":"172.99.190.149","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"vmess","name":"v2cross.com_130","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}},"server":"cf-lt.sharecentre.online","port":"8880","uuid":"e59bd762-dacd-445c-8e2a-e1c5812949cb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"v2cross.com_131","server":"38.68.135.18","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"trojan","name":"v2cross.com_132","server":"us.disnet.gq","port":443,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"ss","name":"v2cross.com_133","server":"38.75.136.21","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_134","server":"172.99.190.87","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"v2cross.com_135","server":"85.208.108.93","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"v2cross.com_136","server":"85.208.108.60","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"v2cross.com_137","server":"s-jp01.aikun.online","port":10000,"password":"c9c498df-683b-40b3-a1cb-b574c36f9433","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"ss","name":"v2cross.com_138","server":"38.143.66.99","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"vmess","name":"v2cross.com_139","ws-opts":{"path":"/"},"server":"ger2.onemaster.sbs","port":"2053","uuid":"a6067377-e76f-4450-b04e-3b470ec92cb0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_140","ws-opts":{"path":"/path/120306182525","headers":{"host":"www.66728533.xyz"}},"server":"107.167.31.194","port":"443","uuid":"17fa3c74-f3c2-4b37-bf53-c6640d6982eb","alterId":"64","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -312,21 +291,6 @@ proxy-groups:
       - v2cross.com_138
       - v2cross.com_139
       - v2cross.com_140
-      - v2cross.com_141
-      - v2cross.com_142
-      - v2cross.com_143
-      - v2cross.com_144
-      - v2cross.com_145
-      - v2cross.com_146
-      - v2cross.com_147
-      - v2cross.com_148
-      - v2cross.com_149
-      - v2cross.com_150
-      - v2cross.com_151
-      - v2cross.com_152
-      - v2cross.com_153
-      - v2cross.com_154
-      - v2cross.com_155
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -473,21 +437,6 @@ proxy-groups:
       - v2cross.com_138
       - v2cross.com_139
       - v2cross.com_140
-      - v2cross.com_141
-      - v2cross.com_142
-      - v2cross.com_143
-      - v2cross.com_144
-      - v2cross.com_145
-      - v2cross.com_146
-      - v2cross.com_147
-      - v2cross.com_148
-      - v2cross.com_149
-      - v2cross.com_150
-      - v2cross.com_151
-      - v2cross.com_152
-      - v2cross.com_153
-      - v2cross.com_154
-      - v2cross.com_155
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -634,21 +583,6 @@ proxy-groups:
       - v2cross.com_138
       - v2cross.com_139
       - v2cross.com_140
-      - v2cross.com_141
-      - v2cross.com_142
-      - v2cross.com_143
-      - v2cross.com_144
-      - v2cross.com_145
-      - v2cross.com_146
-      - v2cross.com_147
-      - v2cross.com_148
-      - v2cross.com_149
-      - v2cross.com_150
-      - v2cross.com_151
-      - v2cross.com_152
-      - v2cross.com_153
-      - v2cross.com_154
-      - v2cross.com_155
   - name: 📲 电报信息
     type: select
     proxies:
@@ -794,21 +728,6 @@ proxy-groups:
       - v2cross.com_138
       - v2cross.com_139
       - v2cross.com_140
-      - v2cross.com_141
-      - v2cross.com_142
-      - v2cross.com_143
-      - v2cross.com_144
-      - v2cross.com_145
-      - v2cross.com_146
-      - v2cross.com_147
-      - v2cross.com_148
-      - v2cross.com_149
-      - v2cross.com_150
-      - v2cross.com_151
-      - v2cross.com_152
-      - v2cross.com_153
-      - v2cross.com_154
-      - v2cross.com_155
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -954,21 +873,6 @@ proxy-groups:
       - v2cross.com_138
       - v2cross.com_139
       - v2cross.com_140
-      - v2cross.com_141
-      - v2cross.com_142
-      - v2cross.com_143
-      - v2cross.com_144
-      - v2cross.com_145
-      - v2cross.com_146
-      - v2cross.com_147
-      - v2cross.com_148
-      - v2cross.com_149
-      - v2cross.com_150
-      - v2cross.com_151
-      - v2cross.com_152
-      - v2cross.com_153
-      - v2cross.com_154
-      - v2cross.com_155
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1114,21 +1018,6 @@ proxy-groups:
       - v2cross.com_138
       - v2cross.com_139
       - v2cross.com_140
-      - v2cross.com_141
-      - v2cross.com_142
-      - v2cross.com_143
-      - v2cross.com_144
-      - v2cross.com_145
-      - v2cross.com_146
-      - v2cross.com_147
-      - v2cross.com_148
-      - v2cross.com_149
-      - v2cross.com_150
-      - v2cross.com_151
-      - v2cross.com_152
-      - v2cross.com_153
-      - v2cross.com_154
-      - v2cross.com_155
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1291,21 +1180,6 @@ proxy-groups:
       - v2cross.com_138
       - v2cross.com_139
       - v2cross.com_140
-      - v2cross.com_141
-      - v2cross.com_142
-      - v2cross.com_143
-      - v2cross.com_144
-      - v2cross.com_145
-      - v2cross.com_146
-      - v2cross.com_147
-      - v2cross.com_148
-      - v2cross.com_149
-      - v2cross.com_150
-      - v2cross.com_151
-      - v2cross.com_152
-      - v2cross.com_153
-      - v2cross.com_154
-      - v2cross.com_155
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
