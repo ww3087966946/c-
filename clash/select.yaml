@@ -1,7 +1,7 @@
 #
 #-------------------------------------------------------------#
-#  创建时间：2023-04-03 15:40:46
-#  节点数量：61
+#  创建时间：2023-04-12 20:28:38
+#  节点数量：17
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -11,67 +11,23 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"v2cross.com_1","server":"hinet1261.gfwisbest.xyz","port":"224","uuid":"2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_2","server":"192.74.228.171","port":"42857","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_3","ws-opts":{"path":"/images","headers":{"host":"hongkong.aws04.ddns.xn--57q977p.com"}},"server":"hongkong.aws04.ddns.xn--57q977p.com","port":"80","uuid":"b261a984-f165-4b2d-92ca-e75d051f1238","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_4","ws-opts":{"path":"/images","headers":{"host":"hongkong.aws04.ddns.xn--57q977p.com"}},"server":"hongkong.aws04.ddns.xn--57q977p.com","port":"80","uuid":"b261a984-f165-4b2d-92ca-e75d051f1238","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_5","server":"140.99.94.42","port":"44108","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_6","server":"38.40.158.242","port":"45002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_7","server":"167.88.63.79","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"v2cross.com_8","server":"156.225.67.156","port":"46617","uuid":"375e70f0-5d46-476f-8d69-0fb35c5548a9","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_9","server":"167.88.63.79","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"v2cross.com_10","server":"172.99.188.99","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"v2cross.com_11","server":"192.74.229.215","port":"51592","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_12","server":"172.99.188.99","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"v2cross.com_13","server":"156.225.67.107","port":"51234","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_14","server":"167.88.63.79","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"v2cross.com_15","server":"167.88.63.79","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"vmess","name":"v2cross.com_16","server":"156.225.67.107","port":"51234","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"v2cross.com_17","server":"dejs.stablize.top","port":443,"password":"80151fd0-950a-4dda-a98a-6d24c6936dbc","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_18","server":"167.88.63.79","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"v2cross.com_19","server":"85.208.108.60","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"v2cross.com_20","server":"85.208.108.60","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"v2cross.com_21","server":"85.208.108.60","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_22","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"v2cross.com_23","server":"156.225.67.142","port":"50317","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"v2cross.com_24","server":"85.208.108.60","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_25","server":"85.208.108.60","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"v2cross.com_26","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"v2cross.com_27","server":"85.208.108.60","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"v2cross.com_28","server":"85.208.108.60","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"v2cross.com_29","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"v2cross.com_30","server":"85.208.108.60","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"v2cross.com_31","server":"167.88.63.79","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"vmess","name":"v2cross.com_32","ws-opts":{"path":"/hax02","headers":{"host":"hax.smely.eu.org"}},"server":"hax.smely.eu.org","port":"80","uuid":"58340bf3-d51d-45e2-87a8-effa78e4bca6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_33","ws-opts":{"path":"/vvip"},"server":"103.83.156.70","port":"80","uuid":"acd17818-d434-49ae-80a6-d194bcaf6392","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_34","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.v2ray5.xyz"}},"server":"23.227.38.38","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_35","ws-opts":{"path":"/ray","headers":{"host":"xxx.ccc.uw.to"}},"server":"162.159.192.16","port":"443","uuid":"e869590b-3f0b-45ea-8ec5-d0c72b8023b0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_36","ws-opts":{"path":"/","headers":{"host":"reza.aliyari.cf"}},"server":"reza.aliyari.cf","port":"2053","uuid":"84d8a5f2-703b-4a20-ca24-2107a2902c75","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_37","ws-opts":{"path":"/","headers":{"host":"jgw.ling25938.top"}},"server":"cf.163453.xyz","port":"443","uuid":"990e6a92-af8c-4765-be17-87325e458357","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v2cross.com_38","server":"167.88.63.79","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"vmess","name":"v2cross.com_39","ws-opts":{"path":"/shirker","headers":{"host":"sg1.sharecentrepro.com"}},"server":"172.67.190.50","port":"443","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_40","ws-opts":{"path":"/","headers":{"host":"woiden.739256.xyz"}},"server":"172.67.209.170","port":"443","uuid":"d05d144a-71a9-4720-8c4e-565257953069","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_41","ws-opts":{"path":"/huhublog","headers":{"host":"zhuyong.hucloud-dns.xyz"}},"server":"173.245.49.8","port":"443","uuid":"9a18cbb1-81d2-4720-9f09-46ea276b6ddb","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_42","ws-opts":{"path":"/","headers":{"host":"eu54.glucy.top"}},"server":"eu54.glucy.top","port":"443","uuid":"11631ff7-c6c1-4e15-f923-77bad375053d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_43","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}},"server":"cf-lt.sharecentre.online","port":"8080","uuid":"fe8b7cbe-e217-4741-95d0-a58075051950","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_44","server":"85.208.108.60","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_45","server":"85.208.108.60","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"vmess","name":"v2cross.com_46","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"80","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_47","ws-opts":{"path":"/images","headers":{"host":"japam01.aws01cdn.xn--57q977p.com"}},"server":"japam01.aws01cdn.xn--57q977p.com","port":"80","uuid":"b261a984-f165-4b2d-92ca-e75d051f1238","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_48","server":"167.88.63.79","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"v2cross.com_49","server":"167.88.63.79","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"vmess","name":"v2cross.com_50","ws-opts":{"path":"/vvip"},"server":"103.83.156.70","port":"80","uuid":"acd17818-d434-49ae-80a6-d194bcaf6392","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v2cross.com_51","server":"85.208.108.60","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"vmess","name":"v2cross.com_52","ws-opts":{"path":"/huhublog","headers":{"host":"zhuyong.hucloud-dns.xyz"}},"server":"173.245.49.8","port":"443","uuid":"9a18cbb1-81d2-4720-9f09-46ea276b6ddb","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"v2cross.com_53","server":"dejs.stablize.top","port":443,"password":"80151fd0-950a-4dda-a98a-6d24c6936dbc","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_54","ws-opts":{"path":"/","headers":{"host":"woiden.739256.xyz"}},"server":"104.21.53.66","port":"443","uuid":"d05d144a-71a9-4720-8c4e-565257953069","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_55","server":"131.186.41.192","port":"26297","uuid":"b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com_56","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"172.67.169.131","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_57","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"rn-us1.imnibaba.wiki"}},"server":"cdn.imnibaba.wiki","port":"2052","uuid":"82276930-fa80-47d7-c228-7f4bd68d5046","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com_58","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}},"server":"la.awsbest.com","port":"443","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_59","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.20","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_60","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"172.67.45.144","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com_61","ws-opts":{"path":"/ray","headers":{"host":"vceu3-xxx.875555.xyz"}},"server":"cf.515188.xyz","port":"443","uuid":"e869590b-3f0b-45ea-8ec5-d0c72b8023b0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_1","ws-opts":{"path":"/","headers":{"host":"fr.v2ray1.xyz"}},"server":"172.67.13.13","port":"80","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_2","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"80","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_3","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}},"server":"203.30.188.1","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_4","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}},"server":"185.162.228.1","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_5","ws-opts":{"path":"/","headers":{"host":"fr.v2ray1.xyz"}},"server":"203.30.188.2","port":"80","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_6","ws-opts":{"path":"/5QNROSRV","headers":{"host":"lg2.v2ray6.xyz"}},"server":"103.160.204.13","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_7","ws-opts":{"path":"/","headers":{"host":"fr.v2ray1.xyz"}},"server":"203.30.189.2","port":"80","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_8","server":"111.23.252.214","port":"45070","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"v2cross.com_9","server":"192.74.229.215","port":"51592","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"v2cross.com_10","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"lg1.v2ray6.xyz"}},"server":"103.160.204.15","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_11","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"lg1.v2ray6.xyz"}},"server":"162.159.58.15","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_12","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}},"server":"cf.515188.xyz","port":"80","uuid":"f6aa4440-e7be-44e1-80e1-7e45ccd796cc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_13","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"buyvm.cloudflare.quest"}},"server":"cf.noaries.de","port":"8080","uuid":"4f7d5d43-226e-48d8-9df0-5e8bf9f77288","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_14","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2cross.com_15","ws-opts":{"path":"/","headers":{"host":"ir2.nmsl.ninja"}},"server":"cf.noaries.de","port":"2082","uuid":"314c1387-618c-4689-97fc-4bc9a1ae5e05","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_16","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}},"server":"cf.515188.xyz","port":"80","uuid":"f6aa4440-e7be-44e1-80e1-7e45ccd796cc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com_17","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.ssrsub.com"}},"server":"cf.515188.xyz","port":"8880","uuid":"f6aa4440-e7be-44e1-80e1-7e45ccd796cc","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -95,50 +51,6 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
-      - v2cross.com_18
-      - v2cross.com_19
-      - v2cross.com_20
-      - v2cross.com_21
-      - v2cross.com_22
-      - v2cross.com_23
-      - v2cross.com_24
-      - v2cross.com_25
-      - v2cross.com_26
-      - v2cross.com_27
-      - v2cross.com_28
-      - v2cross.com_29
-      - v2cross.com_30
-      - v2cross.com_31
-      - v2cross.com_32
-      - v2cross.com_33
-      - v2cross.com_34
-      - v2cross.com_35
-      - v2cross.com_36
-      - v2cross.com_37
-      - v2cross.com_38
-      - v2cross.com_39
-      - v2cross.com_40
-      - v2cross.com_41
-      - v2cross.com_42
-      - v2cross.com_43
-      - v2cross.com_44
-      - v2cross.com_45
-      - v2cross.com_46
-      - v2cross.com_47
-      - v2cross.com_48
-      - v2cross.com_49
-      - v2cross.com_50
-      - v2cross.com_51
-      - v2cross.com_52
-      - v2cross.com_53
-      - v2cross.com_54
-      - v2cross.com_55
-      - v2cross.com_56
-      - v2cross.com_57
-      - v2cross.com_58
-      - v2cross.com_59
-      - v2cross.com_60
-      - v2cross.com_61
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -162,50 +74,6 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
-      - v2cross.com_18
-      - v2cross.com_19
-      - v2cross.com_20
-      - v2cross.com_21
-      - v2cross.com_22
-      - v2cross.com_23
-      - v2cross.com_24
-      - v2cross.com_25
-      - v2cross.com_26
-      - v2cross.com_27
-      - v2cross.com_28
-      - v2cross.com_29
-      - v2cross.com_30
-      - v2cross.com_31
-      - v2cross.com_32
-      - v2cross.com_33
-      - v2cross.com_34
-      - v2cross.com_35
-      - v2cross.com_36
-      - v2cross.com_37
-      - v2cross.com_38
-      - v2cross.com_39
-      - v2cross.com_40
-      - v2cross.com_41
-      - v2cross.com_42
-      - v2cross.com_43
-      - v2cross.com_44
-      - v2cross.com_45
-      - v2cross.com_46
-      - v2cross.com_47
-      - v2cross.com_48
-      - v2cross.com_49
-      - v2cross.com_50
-      - v2cross.com_51
-      - v2cross.com_52
-      - v2cross.com_53
-      - v2cross.com_54
-      - v2cross.com_55
-      - v2cross.com_56
-      - v2cross.com_57
-      - v2cross.com_58
-      - v2cross.com_59
-      - v2cross.com_60
-      - v2cross.com_61
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -229,50 +97,6 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
-      - v2cross.com_18
-      - v2cross.com_19
-      - v2cross.com_20
-      - v2cross.com_21
-      - v2cross.com_22
-      - v2cross.com_23
-      - v2cross.com_24
-      - v2cross.com_25
-      - v2cross.com_26
-      - v2cross.com_27
-      - v2cross.com_28
-      - v2cross.com_29
-      - v2cross.com_30
-      - v2cross.com_31
-      - v2cross.com_32
-      - v2cross.com_33
-      - v2cross.com_34
-      - v2cross.com_35
-      - v2cross.com_36
-      - v2cross.com_37
-      - v2cross.com_38
-      - v2cross.com_39
-      - v2cross.com_40
-      - v2cross.com_41
-      - v2cross.com_42
-      - v2cross.com_43
-      - v2cross.com_44
-      - v2cross.com_45
-      - v2cross.com_46
-      - v2cross.com_47
-      - v2cross.com_48
-      - v2cross.com_49
-      - v2cross.com_50
-      - v2cross.com_51
-      - v2cross.com_52
-      - v2cross.com_53
-      - v2cross.com_54
-      - v2cross.com_55
-      - v2cross.com_56
-      - v2cross.com_57
-      - v2cross.com_58
-      - v2cross.com_59
-      - v2cross.com_60
-      - v2cross.com_61
   - name: 📲 电报信息
     type: select
     proxies:
@@ -295,50 +119,6 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
-      - v2cross.com_18
-      - v2cross.com_19
-      - v2cross.com_20
-      - v2cross.com_21
-      - v2cross.com_22
-      - v2cross.com_23
-      - v2cross.com_24
-      - v2cross.com_25
-      - v2cross.com_26
-      - v2cross.com_27
-      - v2cross.com_28
-      - v2cross.com_29
-      - v2cross.com_30
-      - v2cross.com_31
-      - v2cross.com_32
-      - v2cross.com_33
-      - v2cross.com_34
-      - v2cross.com_35
-      - v2cross.com_36
-      - v2cross.com_37
-      - v2cross.com_38
-      - v2cross.com_39
-      - v2cross.com_40
-      - v2cross.com_41
-      - v2cross.com_42
-      - v2cross.com_43
-      - v2cross.com_44
-      - v2cross.com_45
-      - v2cross.com_46
-      - v2cross.com_47
-      - v2cross.com_48
-      - v2cross.com_49
-      - v2cross.com_50
-      - v2cross.com_51
-      - v2cross.com_52
-      - v2cross.com_53
-      - v2cross.com_54
-      - v2cross.com_55
-      - v2cross.com_56
-      - v2cross.com_57
-      - v2cross.com_58
-      - v2cross.com_59
-      - v2cross.com_60
-      - v2cross.com_61
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -361,50 +141,6 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
-      - v2cross.com_18
-      - v2cross.com_19
-      - v2cross.com_20
-      - v2cross.com_21
-      - v2cross.com_22
-      - v2cross.com_23
-      - v2cross.com_24
-      - v2cross.com_25
-      - v2cross.com_26
-      - v2cross.com_27
-      - v2cross.com_28
-      - v2cross.com_29
-      - v2cross.com_30
-      - v2cross.com_31
-      - v2cross.com_32
-      - v2cross.com_33
-      - v2cross.com_34
-      - v2cross.com_35
-      - v2cross.com_36
-      - v2cross.com_37
-      - v2cross.com_38
-      - v2cross.com_39
-      - v2cross.com_40
-      - v2cross.com_41
-      - v2cross.com_42
-      - v2cross.com_43
-      - v2cross.com_44
-      - v2cross.com_45
-      - v2cross.com_46
-      - v2cross.com_47
-      - v2cross.com_48
-      - v2cross.com_49
-      - v2cross.com_50
-      - v2cross.com_51
-      - v2cross.com_52
-      - v2cross.com_53
-      - v2cross.com_54
-      - v2cross.com_55
-      - v2cross.com_56
-      - v2cross.com_57
-      - v2cross.com_58
-      - v2cross.com_59
-      - v2cross.com_60
-      - v2cross.com_61
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -427,50 +163,6 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
-      - v2cross.com_18
-      - v2cross.com_19
-      - v2cross.com_20
-      - v2cross.com_21
-      - v2cross.com_22
-      - v2cross.com_23
-      - v2cross.com_24
-      - v2cross.com_25
-      - v2cross.com_26
-      - v2cross.com_27
-      - v2cross.com_28
-      - v2cross.com_29
-      - v2cross.com_30
-      - v2cross.com_31
-      - v2cross.com_32
-      - v2cross.com_33
-      - v2cross.com_34
-      - v2cross.com_35
-      - v2cross.com_36
-      - v2cross.com_37
-      - v2cross.com_38
-      - v2cross.com_39
-      - v2cross.com_40
-      - v2cross.com_41
-      - v2cross.com_42
-      - v2cross.com_43
-      - v2cross.com_44
-      - v2cross.com_45
-      - v2cross.com_46
-      - v2cross.com_47
-      - v2cross.com_48
-      - v2cross.com_49
-      - v2cross.com_50
-      - v2cross.com_51
-      - v2cross.com_52
-      - v2cross.com_53
-      - v2cross.com_54
-      - v2cross.com_55
-      - v2cross.com_56
-      - v2cross.com_57
-      - v2cross.com_58
-      - v2cross.com_59
-      - v2cross.com_60
-      - v2cross.com_61
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -510,50 +202,6 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
-      - v2cross.com_18
-      - v2cross.com_19
-      - v2cross.com_20
-      - v2cross.com_21
-      - v2cross.com_22
-      - v2cross.com_23
-      - v2cross.com_24
-      - v2cross.com_25
-      - v2cross.com_26
-      - v2cross.com_27
-      - v2cross.com_28
-      - v2cross.com_29
-      - v2cross.com_30
-      - v2cross.com_31
-      - v2cross.com_32
-      - v2cross.com_33
-      - v2cross.com_34
-      - v2cross.com_35
-      - v2cross.com_36
-      - v2cross.com_37
-      - v2cross.com_38
-      - v2cross.com_39
-      - v2cross.com_40
-      - v2cross.com_41
-      - v2cross.com_42
-      - v2cross.com_43
-      - v2cross.com_44
-      - v2cross.com_45
-      - v2cross.com_46
-      - v2cross.com_47
-      - v2cross.com_48
-      - v2cross.com_49
-      - v2cross.com_50
-      - v2cross.com_51
-      - v2cross.com_52
-      - v2cross.com_53
-      - v2cross.com_54
-      - v2cross.com_55
-      - v2cross.com_56
-      - v2cross.com_57
-      - v2cross.com_58
-      - v2cross.com_59
-      - v2cross.com_60
-      - v2cross.com_61
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
