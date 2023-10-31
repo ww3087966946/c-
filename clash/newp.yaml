@@ -1540,8 +1540,8 @@ proxy-groups:
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - 🚀 手动切换
       - 🎯 全球直连
+      - 🚀 手动切换
       - ♻️ 自动选择
       - 俄罗斯01|263
       - 俄罗斯01|264
