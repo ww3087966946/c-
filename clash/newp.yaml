@@ -81,7 +81,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
       - 中国香港02|734_1
       - 中国香港02|304_1
       - 中国香港02|803_1
