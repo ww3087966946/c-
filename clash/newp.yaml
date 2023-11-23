@@ -76,7 +76,7 @@ proxy-groups:
       - QQ反馈群：592010229
       - 长时间未更新请进群联系群管
       - 【2023.11.23更新】
-      - 线路被墙请点击右上角获取线
+      - 线路被墙请点击右上角获取线路
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -115,7 +115,7 @@ proxy-groups:
       - QQ反馈群：592010229
       - 长时间未更新请进群联系群管
       - 【2023.11.23更新】
-      - 线路被墙请点击右上角获取线
+      - 线路被墙请点击右上角获取线路
   - name: 🎬 猫熊Emby
     type: select
     proxies:
