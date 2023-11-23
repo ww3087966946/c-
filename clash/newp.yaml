@@ -38,7 +38,7 @@ proxies:
   - {"type":"vmess","name":"长时间未更新请进群联系群管","server":"107.148.5.81","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"【2023.11.23更新】","server":"107.148.5.161","port":"53002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"线路被墙请点击右上角获取线路","server":"92.222.209.100","port":"47021","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  proxy-groups:
+proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
