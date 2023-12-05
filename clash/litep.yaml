@@ -1,0 +1,400 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {"type":"vmess","name":"日本11|726","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.77295287.xyz"}},"server":"107.148.5.174","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"移动4g专用03|102","server":"120.210.205.220","port":"47459","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用02|862","server":"112.29.94.23","port":"49445","uuid":"b49905f3-efc7-4e1a-8435-f5f66857516d","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|808","server":"120.233.43.43","port":"55977","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|807","server":"120.233.43.43","port":"31133","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|720","server":"120.233.43.85","port":"35576","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|692","server":"183.237.20.154","port":"41242","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|805","server":"120.233.43.85","port":"41766","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|695","server":"120.233.43.37","port":"59629","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|806","server":"120.233.43.85","port":"40890","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|843","server":"120.233.43.43","port":"54103","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中国香港02|370","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.97318830.xyz"}},"server":"216.83.44.142","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国香港02|535","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.48720663.xyz"}},"server":"118.107.46.176","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国香港02|714","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.22903606.xyz"}},"server":"27.124.47.54","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国香港02|715","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.16179341.xyz"}},"server":"27.124.45.126","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国台湾01|845","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.27180065.xyz"}},"server":"144.48.32.36","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国04|383","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.41030911.xyz"}},"server":"170.178.194.2","port":"443","uuid":"3023981b-0431-4bff-8a10-0f986ba86c73","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国04|510","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.49175366.xyz"}},"server":"23.234.198.85","port":"443","uuid":"a9abf3e7-87f4-473d-8d03-2f26ca4b3583","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国04|590","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.99531934.xyz"}},"server":"173.82.142.154","port":"443","uuid":"82620a6e-dbfd-4d57-8a59-9004a4bb9e92","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国03|191","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.21166402.xyz"}},"server":"67.21.88.152","port":"443","uuid":"c528d8d8-94d6-48a9-8dd3-52892558a6ab","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国03|190","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.21166402.xyz"}},"server":"67.21.88.152","port":"443","uuid":"c528d8d8-94d6-48a9-8dd3-52892558a6ab","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国02(适合移动)|861","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.64991122.xyz"}},"server":"104.233.131.166","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国02(适合移动)|184","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.95076615.xyz"}},"server":"104.233.239.173","port":"30000","uuid":"dcca1294-7097-44b7-bd49-5f51c73f532f","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国02(适合移动)|299","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.58712632.xyz"}},"server":"107.148.253.140","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国02(适合移动)|371","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.41888369.xyz"}},"server":"104.233.191.56","port":"30000","uuid":"61a51b0b-b6bd-4908-821e-b384a5d5bad4","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国01|565","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.11615746.xyz"}},"server":"162.209.198.146","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国01|225","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.29968214.xyz"}},"server":"23.224.14.147","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"专线01|647","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.38615554.xyz"}},"server":"173.82.141.114","port":"443","uuid":"c17854bc-4c61-40c8-8199-dadb1dc0dd13","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"专线01|652","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.76823996.xyz"}},"server":"100.42.70.156","port":"443","uuid":"6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"QQ反馈群：592010229","server":"183.237.20.146","port":"40095","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"长时间未更新请进群联系群管","server":"107.148.5.81","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"【2023.11.23更新】","server":"107.148.5.161","port":"53002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"线路被墙请点击右上角获取线路","server":"92.222.209.100","port":"47021","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+proxy-groups:
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 日本11|726
+      - 移动4g专用03|102
+      - 移动4g专用02|862
+      - 移动4g专用01|808
+      - 移动4g专用01|807
+      - 移动4g专用01|720
+      - 移动4g专用01|692
+      - 移动4g专用01|805
+      - 移动4g专用01|695
+      - 移动4g专用01|806
+      - 移动4g专用01|843
+      - 中国香港02|370
+      - 中国香港02|535
+      - 中国香港02|714
+      - 中国香港02|715
+      - 中国台湾01|845
+      - 美国04|383
+      - 美国04|510
+      - 美国04|590
+      - 美国03|191
+      - 美国03|190
+      - 美国02(适合移动)|861
+      - 美国02(适合移动)|184
+      - 美国02(适合移动)|299
+      - 美国02(适合移动)|371
+      - 美国01|565
+      - 美国01|225
+      - 专线01|647
+      - 专线01|652
+      - QQ反馈群：592010229
+      - 长时间未更新请进群联系群管
+      - 【2023.11.23更新】
+      - 线路被墙请点击右上角获取线路
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 日本11|726
+      - 移动4g专用03|102
+      - 移动4g专用02|862
+      - 移动4g专用01|808
+      - 移动4g专用01|807
+      - 移动4g专用01|720
+      - 移动4g专用01|692
+      - 移动4g专用01|805
+      - 移动4g专用01|695
+      - 移动4g专用01|806
+      - 移动4g专用01|843
+      - 中国香港02|370
+      - 中国香港02|535
+      - 中国香港02|714
+      - 中国香港02|715
+      - 中国台湾01|845
+      - 美国04|383
+      - 美国04|510
+      - 美国04|590
+      - 美国03|191
+      - 美国03|190
+      - 美国02(适合移动)|861
+      - 美国02(适合移动)|184
+      - 美国02(适合移动)|299
+      - 美国02(适合移动)|371
+      - 美国01|565
+      - 美国01|225
+      - 专线01|647
+      - 专线01|652
+      - QQ反馈群：592010229
+      - 长时间未更新请进群联系群管
+      - 【2023.11.23更新】
+      - 线路被墙请点击右上角获取线路
+  - name: 🎬 猫熊Emby
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 📺 巴哈姆特动画疯
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🅱️️ 哔哩哔哩港澳台
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 📹 YouTube
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 🚀 手动切换
+  - name: 🦄 DisneyPlus
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🎮👑👑 HBO MAX
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🎥 HBOGO Asia
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 💿 AbemaTV
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🔞 Pornhub
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🎶 TikTok
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🎧 Spotify
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🎮️ 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - ♻️ 自动选择
+  - name: 🤖 ChatGPT（测试中）
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - ♻️ 自动选择
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 手动切换
+      - ♻️ 自动选择
+rule-providers:
+  电报信息:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ww3087966946/c-/main/clash/ruleset/%E7%94%B5%E6%8A%A5%E4%BF%A1%E6%81%AF.yaml"
+    path: ./ruleset/电报信息.yaml
+    # interval: 86400
+    
+  谷歌FCM:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E8%B0%B7%E6%AD%8CFCM.yaml"
+    path: ./ruleset/谷歌FCM.yaml
+    # interval: 86400
+    
+  手动切换:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E6%89%8B%E5%8A%A8%E5%88%87%E6%8D%A2.yaml"
+    path: ./ruleset/手动切换.yaml
+    # interval: 86400
+
+  TikTok:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/TikTok.yaml"
+    path: ./ruleset/TikTok.yaml
+    # interval: 86400
+
+  Spotify:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/Spotify.yaml"
+    path: ./ruleset/Spotify.yaml
+    # interval: 86400
+
+  Pornhub:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/Pornhub.yaml"
+    path: ./ruleset/Pornhub.yaml
+    # interval: 86400
+
+  NETFLIX:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/NETFLIX.yaml"
+    path: ./ruleset/NETFLIX.yaml
+    # interval: 86400
+
+  HBOGO Asia:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/HBOGO%20Asia.yaml"
+    path: ./ruleset/HBOGO Asia.yaml
+    # interval: 86400
+
+  HBO MAX:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/HBO%20MAX.yaml"
+    path: ./ruleset/HBO MAX.yaml
+    # interval: 86400
+
+  DisneyPlus:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/DisneyPlus.yaml"
+    path: ./ruleset/DisneyPlus.yaml
+    # interval: 86400
+
+  AbemaTV:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/AbemaTV.yaml"
+    path: ./ruleset/AbemaTV.yaml
+    # interval: 86400
+
+  微软服务:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E5%BE%AE%E8%BD%AF%E6%9C%8D%E5%8A%A1.yaml"
+    path: ./ruleset/微软服务.yaml
+    # interval: 86400
+
+  巴哈姆特动画疯:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E5%8A%A8%E7%94%BB%E7%96%AF.yaml"
+    path: ./ruleset/巴哈姆特动画疯.yaml
+    # interval: 86400
+
+  哔哩哔哩港澳台:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E6%B8%AF%E6%BE%B3%E5%8F%B0.yaml"
+    path: ./ruleset/哔哩哔哩港澳台.yaml
+    # interval: 86400
+
+  游戏平台:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E6%B8%B8%E6%88%8F%E5%B9%B3%E5%8F%B0.yaml"
+    path: ./ruleset/游戏平台.yaml
+    # interval: 86400
+
+  ChatGPT:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/ChatGPT.yaml"
+    path: ./ruleset/ChatGPT.yaml
+    # interval: 86400
+
+  猫熊Emby:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E7%8C%AB%E7%86%8AEmby.yaml"
+    path: ./ruleset/猫熊Emby.yaml
+    # interval: 86400
+
+  YouTube:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/YouTube.yaml"
+    path: ./ruleset/YouTube.yaml
+    # interval: 86400
+
+  苹果服务:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E8%8B%B9%E6%9E%9C%E6%9C%8D%E5%8A%A1.yaml"
+    path: ./ruleset/苹果服务.yaml
+    # interval: 86400
+
+  全球直连:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/%E5%85%A8%E7%90%83%E7%9B%B4%E8%BF%9E.yaml"
+    path: ./ruleset/全球直连.yaml
+    # interval: 86400
+
+rules:
+  - RULE-SET,电报信息,📲 电报信息
+  - RULE-SET,谷歌FCM,📢 谷歌FCM
+  - RULE-SET,手动切换,🚀 手动切换
+  - RULE-SET,TikTok,🎶 TikTok
+  - RULE-SET,Spotify,🎧 Spotify
+  - RULE-SET,NETFLIX,🎥 NETFLIX
+  - RULE-SET,HBOGO Asia,🎥 HBOGO Asia
+  - RULE-SET,HBO MAX,🎮👑👑 HBO MAX
+  - RULE-SET,DisneyPlus,🦄 DisneyPlus
+  - RULE-SET,AbemaTV,💿 AbemaTV
+  - RULE-SET,微软服务,Ⓜ️ 微软服务
+  - RULE-SET,巴哈姆特动画疯,📺 巴哈姆特动画疯
+  - RULE-SET,哔哩哔哩港澳台,🅱️️ 哔哩哔哩港澳台
+  - RULE-SET,游戏平台,🎮️ 游戏平台
+  - RULE-SET,ChatGPT,🤖 ChatGPT（测试中）
+  - RULE-SET,猫熊Emby,🎬 猫熊Emby
+  - RULE-SET,Pornhub,🔞 Pornhub
+  - RULE-SET,YouTube,📹 YouTube
+  - RULE-SET,苹果服务,🍎 苹果服务
+  - RULE-SET,全球直连,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
