@@ -4,118 +4,20 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxies:
-  - {"type":"vmess","name":"日本11|726","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.77295287.xyz"}},"server":"107.148.5.174","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"移动4g专用03|102","server":"120.210.205.220","port":"47459","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用02|862","server":"112.29.94.23","port":"49445","uuid":"b49905f3-efc7-4e1a-8435-f5f66857516d","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|808","server":"120.233.43.43","port":"55977","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|807","server":"120.233.43.43","port":"31133","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|720","server":"120.233.43.85","port":"35576","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|692","server":"183.237.20.154","port":"41242","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|805","server":"120.233.43.85","port":"41766","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|695","server":"120.233.43.37","port":"59629","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|806","server":"120.233.43.85","port":"40890","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用01|843","server":"120.233.43.43","port":"54103","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"中国香港02|370","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.97318830.xyz"}},"server":"216.83.44.142","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国香港02|535","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.48720663.xyz"}},"server":"118.107.46.176","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国香港02|714","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.22903606.xyz"}},"server":"27.124.47.54","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国香港02|715","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.16179341.xyz"}},"server":"27.124.45.126","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国台湾01|845","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.27180065.xyz"}},"server":"144.48.32.36","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国04|383","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.41030911.xyz"}},"server":"170.178.194.2","port":"443","uuid":"3023981b-0431-4bff-8a10-0f986ba86c73","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国04|510","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.49175366.xyz"}},"server":"23.234.198.85","port":"443","uuid":"a9abf3e7-87f4-473d-8d03-2f26ca4b3583","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国04|590","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.99531934.xyz"}},"server":"173.82.142.154","port":"443","uuid":"82620a6e-dbfd-4d57-8a59-9004a4bb9e92","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国03|191","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.21166402.xyz"}},"server":"67.21.88.152","port":"443","uuid":"c528d8d8-94d6-48a9-8dd3-52892558a6ab","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国03|190","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.21166402.xyz"}},"server":"67.21.88.152","port":"443","uuid":"c528d8d8-94d6-48a9-8dd3-52892558a6ab","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国02(适合移动)|861","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.64991122.xyz"}},"server":"104.233.131.166","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国02(适合移动)|184","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.95076615.xyz"}},"server":"104.233.239.173","port":"30000","uuid":"dcca1294-7097-44b7-bd49-5f51c73f532f","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国02(适合移动)|299","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.58712632.xyz"}},"server":"107.148.253.140","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国02(适合移动)|371","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.41888369.xyz"}},"server":"104.233.191.56","port":"30000","uuid":"61a51b0b-b6bd-4908-821e-b384a5d5bad4","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国01|565","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.11615746.xyz"}},"server":"162.209.198.146","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国01|225","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.29968214.xyz"}},"server":"23.224.14.147","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"专线01|647","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.38615554.xyz"}},"server":"173.82.141.114","port":"443","uuid":"c17854bc-4c61-40c8-8199-dadb1dc0dd13","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"专线01|652","ws-opts":{"path":"/path/081124132908","headers":{"host":"www.76823996.xyz"}},"server":"100.42.70.156","port":"443","uuid":"6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"QQ反馈群：592010229","server":"183.237.20.146","port":"40095","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"长时间未更新请进群联系群管","server":"107.148.5.81","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"【2023.11.23更新】","server":"107.148.5.161","port":"53002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"线路被墙请点击右上角获取线路","server":"92.222.209.100","port":"47021","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 手动切换
     type: select
+    use:
+      - "proxy"
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 日本11|726
-      - 移动4g专用03|102
-      - 移动4g专用02|862
-      - 移动4g专用01|808
-      - 移动4g专用01|807
-      - 移动4g专用01|720
-      - 移动4g专用01|692
-      - 移动4g专用01|805
-      - 移动4g专用01|695
-      - 移动4g专用01|806
-      - 移动4g专用01|843
-      - 中国香港02|370
-      - 中国香港02|535
-      - 中国香港02|714
-      - 中国香港02|715
-      - 中国台湾01|845
-      - 美国04|383
-      - 美国04|510
-      - 美国04|590
-      - 美国03|191
-      - 美国03|190
-      - 美国02(适合移动)|861
-      - 美国02(适合移动)|184
-      - 美国02(适合移动)|299
-      - 美国02(适合移动)|371
-      - 美国01|565
-      - 美国01|225
-      - 专线01|647
-      - 专线01|652
-      - QQ反馈群：592010229
-      - 长时间未更新请进群联系群管
-      - 【2023.11.23更新】
-      - 线路被墙请点击右上角获取线路
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    use:
+      - "proxy"
     proxies:
-      - 日本11|726
-      - 移动4g专用03|102
-      - 移动4g专用02|862
-      - 移动4g专用01|808
-      - 移动4g专用01|807
-      - 移动4g专用01|720
-      - 移动4g专用01|692
-      - 移动4g专用01|805
-      - 移动4g专用01|695
-      - 移动4g专用01|806
-      - 移动4g专用01|843
-      - 中国香港02|370
-      - 中国香港02|535
-      - 中国香港02|714
-      - 中国香港02|715
-      - 中国台湾01|845
-      - 美国04|383
-      - 美国04|510
-      - 美国04|590
-      - 美国03|191
-      - 美国03|190
-      - 美国02(适合移动)|861
-      - 美国02(适合移动)|184
-      - 美国02(适合移动)|299
-      - 美国02(适合移动)|371
-      - 美国01|565
-      - 美国01|225
-      - 专线01|647
-      - 专线01|652
-      - QQ反馈群：592010229
-      - 长时间未更新请进群联系群管
-      - 【2023.11.23更新】
-      - 线路被墙请点击右上角获取线路
+      - DIRECT
   - name: 🎬 猫熊Emby
     type: select
     proxies:
@@ -234,6 +136,19 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 手动切换
       - ♻️ 自动选择
+proxy-providers:
+  "proxy":
+    type: http
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/proxies/p.yaml"
+    interval: 3600
+    path: ./proxy/p.yml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Tidak mendukung ekspresi reguler, dipisahkan dengan '|', dikecualikan menurut jenis node
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
 rule-providers:
   电报信息:
     type: http
