@@ -17,8 +17,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    use:
-      - "proxy"
     proxies:
       - DIRECT
   - name: 🎬 猫熊Emby
@@ -27,24 +25,32 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 📺 巴哈姆特动画疯
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🅱️️ 哔哩哔哩港澳台
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -55,78 +61,104 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🎮👑👑 HBO MAX
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🎥 HBOGO Asia
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 💿 AbemaTV
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🔞 Pornhub
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🎶 TikTok
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🎧 Spotify
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
       - ♻️ 自动选择
+    use:
+      - "proxy"
   - name: 🤖 ChatGPT（测试中）
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+    use:
+      - "proxy"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
       - ♻️ 自动选择
+    use:
+      - "proxy"
   - name: 🎯 全球直连
     type: select
     proxies:
