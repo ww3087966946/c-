@@ -1,0 +1,15 @@
+payload:
+  - DOMAIN-SUFFIX,embyclub.net
+  - DOMAIN-SUFFIX,embyclub.com
+  - DOMAIN-SUFFIX,embyclub.org
+  - DOMAIN-SUFFIX,embyclub.media
+  - DOMAIN-SUFFIX,猫熊.club
+  - DOMAIN-SUFFIX,embyclub.maoxiong.cloud
+  - DOMAIN-SUFFIX,maoxiong.cloud
+  - DOMAIN-SUFFIX,embyclub2.maoxiong.cloud
+  - DOMAIN-SUFFIX,haodream.org
+  - DOMAIN-KEYWORD,emby
+  - DOMAIN-KEYWORD,pornemby
+  - DOMAIN-SUFFIX,xn--2vxr8a.club
+  - DOMAIN-SUFFIX,pornemby.maoxiong.cloud
+  - IP-CIDR,142.54.186.202/16,no-resolve

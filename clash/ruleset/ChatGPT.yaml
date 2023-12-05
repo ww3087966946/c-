@@ -1,0 +1,11 @@
+payload:
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,gpt3.org
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
