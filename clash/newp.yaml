@@ -176,7 +176,7 @@ proxy-providers:
     type: http
     url: "https://github.com/ww3087966946/c-/raw/main/clash/proxies/p.yaml"
     interval: 3600
-    path: ./proxy/p.yml
+    path: ./proxy/p.yaml
     # filter: 'xxx' # Supports regular expressions to filter by node name
     # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
     # exclude-type: 'ss|http' # Tidak mendukung ekspresi reguler, dipisahkan dengan '|', dikecualikan menurut jenis node
