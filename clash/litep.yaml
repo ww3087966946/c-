@@ -40,7 +40,7 @@ proxy-groups:
 proxy-providers:
   "proxy":
     type: http
-    url: "https://github.com/ww3087966946/c-/raw/main/clash/proxies/p.yaml"
+    url: "https://mirror.ghproxy.com/raw.githubusercontent.com/ww3087966946/c-/main/clash/proxies/p.yaml"
     interval: 3600
     path: ./proxy/p.yml
     # filter: 'xxx' # Supports regular expressions to filter by node name
