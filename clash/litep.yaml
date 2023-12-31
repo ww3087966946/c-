@@ -22,9 +22,9 @@ proxy-groups:
   - name: 国内
     type: select
     proxies:
+      - DIRECT
       - 🚀 手动切换
       - ♻️ 自动选择
-      - DIRECT
     use:
       - "proxy"
   - name: 国外
