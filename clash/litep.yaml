@@ -19,14 +19,6 @@ proxy-groups:
     tolerance: 50
     use:
       - "proxy"
-  - name: 国内
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - ♻️ 自动选择
-    use:
-      - "proxy"
   - name: 国外
     type: select
     proxies:
@@ -35,19 +27,11 @@ proxy-groups:
       - DIRECT
     use:
       - "proxy"
-  - name: 其他
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - ♻️ 自动选择
-    use:
-      - "proxy"
 proxy-providers:
   "proxy":
     type: http
     url: "https://mirror.ghproxy.com/raw.githubusercontent.com/ww3087966946/c-/main/clash/proxies/p.yaml"
-    interval: 3600
+    interval: 600
     path: ./proxy/p.yml
     # filter: 'xxx' # Supports regular expressions to filter by node name
     # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
@@ -55,10 +39,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 3600
+      interval: 600
 rules:
   - GEOSITE,!CN,国外
-  - GEOSITE,CN,国内
   - GEOIP,!CN,国外
-  - GEOIP,CN,国内
-  - MATCH,其他
