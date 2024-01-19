@@ -1,4 +1,5 @@
 proxies:
+  - {"type":"vless","name":"Youtube顺丰资源++美国0191","server":"h.pertoonkor.pp.ua","port":2083,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"pages.20230619.love","ws-opts":{"path":"fuck0yes","headers":{"host":"pages.20230619.love"}}}
   - {"type":"vmess","name":"韩国02|165_1","ws-opts":{"path":"/path/032410252716","headers":{"host":"www.19217547.xyz"}},"server":"27.255.65.51","port":"443","uuid":"91d7350b-bbff-42d1-88f2-ace760c9c79b","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"韩国02|841_1","ws-opts":{"path":"/path/010327320000","headers":{"host":"www.93243095.xyz"}},"server":"104.37.215.71","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"韩国02|165_2","ws-opts":{"path":"/path/010327320000","headers":{"host":"www.19217547.xyz"}},"server":"27.255.65.51","port":"443","uuid":"91d7350b-bbff-42d1-88f2-ace760c9c79b","alterId":"64","cipher":"auto","network":"ws","tls":true}
