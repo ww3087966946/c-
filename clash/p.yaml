@@ -9001,6 +9001,29 @@ rules:
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
   - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
+  # 推特
+  - DOMAIN-SUFFIX,t.co,🚀 节点选择
+  - DOMAIN-SUFFIX,tellapart.com,🚀 节点选择
+  - DOMAIN-SUFFIX,tweetdeck.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twimg.co,🚀 节点选择
+  - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twimg.org,🚀 节点选择
+  - DOMAIN-SUFFIX,twitpic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twitter.biz,🚀 节点选择
+  - DOMAIN-SUFFIX,twitter.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twitter.jp,🚀 节点选择
+  - DOMAIN-SUFFIX,twittercommunity.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twitterflightschool.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twitterinc.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twitteroauth.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twitterstat.us,🚀 节点选择
+  - DOMAIN-SUFFIX,twtrdns.net,🚀 节点选择
+  - DOMAIN-SUFFIX,twttr.com,🚀 节点选择
+  - DOMAIN-SUFFIX,twttr.net,🚀 节点选择
+  - DOMAIN-SUFFIX,twvid.com,🚀 节点选择
+  - DOMAIN-SUFFIX,vine.co,🚀 节点选择
+  - DOMAIN-SUFFIX,api.twitter.com,🚀 节点选择
+  - DOMAIN-KEYWORD,twitter,🚀 节点选择
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
