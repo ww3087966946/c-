@@ -19,95 +19,33 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-proxies:
-  - {"type":"vmess","name":"720","server":"120.233.43.85","port":"35576","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"770","server":"112.29.94.23","port":"48009","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"102","server":"120.210.205.220","port":"47009","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"736","ws-opts":{"path":"/path/080712342310","headers":{"host":"www.84768515.xyz"}},"server":"104.233.170.98","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"841","ws-opts":{"path":"/path/080712342310","headers":{"host":"www.93243095.xyz"}},"server":"104.37.215.71","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"647","ws-opts":{"path":"/path/080712342310","headers":{"host":"www.38615554.xyz"}},"server":"23.234.228.54","port":"443","uuid":"c17854bc-4c61-40c8-8199-dadb1dc0dd13","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"704","server":"192.74.236.247","port":"49033","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"676","server":"137.175.14.60","port":"49627","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"692","server":"183.237.20.154","port":"41242","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"474","server":"45.88.43.131","port":"51801","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"QQ反馈群：850623767","server":"183.237.20.146","port":"40095","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"长时间未更新请进群联系群管","server":"107.148.5.81","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"【2023.10.02更新】","server":"107.148.5.161","port":"53002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"线路被墙请点击右上角获取线路","server":"92.222.209.100","port":"47021","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
-    proxies:
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
+    use:
+      - "proxy"
   - name: 🚀 手动切换
     type: select
-    proxies:
-      - '720'
-      - '770'
-      - '102'
-      - '736'
-      - '841'
-      - '647'
-      - '704'
-      - '676'
-      - '692'
-      - '474'
-      - QQ反馈群：850623767
-      - 长时间未更新请进群联系群管
-      - 【2023.10.02更新】
-      - 线路被墙请点击右上角获取线路
+    use:
+      - "proxy"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies:
-      - '720'
-      - '770'
-      - '102'
-      - '736'
-      - '841'
-      - '647'
-      - '704'
-      - '676'
-      - '692'
-      - '474'
-      - QQ反馈群：850623767
-      - 长时间未更新请进群联系群管
-      - 【2023.10.02更新】
-      - 线路被墙请点击右上角获取线路
+    use:
+      - "proxy"
   - name: 📲 电报消息
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
       - DIRECT
   - name: 💬 OpenAi
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 📹 油管视频
@@ -115,12 +53,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 奈飞视频
@@ -129,12 +61,6 @@ proxy-groups:
       - 🎥 奈飞节点
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 📺 巴哈姆特
@@ -148,89 +74,47 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
       - 🚀 手动切换
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: 🎶 网易音乐
     type: select
@@ -257,62 +141,27 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
       - 🚀 手动切换
-  - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - DIRECT
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - DIRECT
-  - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 150
-    proxies:
-      - DIRECT
-  - name: 🇨🇳 台湾节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - DIRECT
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - DIRECT
-  - name: 🇰🇷 韩国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - DIRECT
   - name: 🎥 奈飞节点
     type: select
-    proxies:
-      - DIRECT
+    use:
+      - "proxy"
+proxy-providers:
+  "proxy":
+    type: http
+    url: "https://mirror.ghproxy.com/raw.githubusercontent.com/ww3087966946/c-/main/clash/proxies/p.yaml"
+    interval: 3600
+    path: ./proxy/p.yaml
+    # filter: 'xxx' # Supports regular expressions to filter by node name
+    # exclude-filter: 'ctb' # Supports regular expressions to exclude based on node name
+    # exclude-type: 'ss|http' # Tidak mendukung ekspresi reguler, dipisahkan dengan '|', dikecualikan menurut jenis node
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
