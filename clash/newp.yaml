@@ -328,7 +328,6 @@ rule-providers:
 rules:
   - RULE-SET,电报信息,📲 电报信息
   - RULE-SET,谷歌FCM,📢 谷歌FCM
-  - RULE-SET,手动切换,🚀 手动切换
   - RULE-SET,TikTok,🎶 TikTok
   - RULE-SET,Spotify,🎧 Spotify
   - RULE-SET,NETFLIX,🎥 NETFLIX
@@ -346,5 +345,6 @@ rules:
   - RULE-SET,YouTube,📹 YouTube
   - RULE-SET,苹果服务,🍎 苹果服务
   - RULE-SET,全球直连,🎯 全球直连
+  - RULE-SET,手动切换,🚀 手动切换
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
