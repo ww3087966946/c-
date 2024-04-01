@@ -87,6 +87,12 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+  - name: 🎶 Twitter
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🎯 全球直连
   - name: 🎧 Spotify
     type: select
     proxies:
@@ -182,7 +188,14 @@ rule-providers:
     url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/TikTok.yaml"
     path: ./ruleset/TikTok.yaml
     # interval: 86400
-
+    
+  Twitter:
+    type: http
+    behavior: classical
+    url: "https://github.com/ww3087966946/c-/raw/main/clash/ruleset/Twitter.yaml"
+    path: ./ruleset/TikTok.yaml
+    # interval: 86400
+    
   Spotify:
     type: http
     behavior: classical
@@ -299,6 +312,7 @@ rules:
   - RULE-SET,电报信息,📲 电报信息
   - RULE-SET,谷歌FCM,📢 谷歌FCM
   - RULE-SET,TikTok,🎶 TikTok
+  - RULE-SET,Twitter,🎶 Twitter
   - RULE-SET,Spotify,🎧 Spotify
   - RULE-SET,NETFLIX,🎥 NETFLIX
   - RULE-SET,HBOGO Asia,🎥 HBOGO Asia
