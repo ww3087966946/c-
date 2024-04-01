@@ -356,4 +356,4 @@ payload:
   - DOMAIN-SUFFIX,api.twitter.com
   - DOMAIN-KEYWORD,twitter
 # miru仓库
-https://miru-repo.0n0.dev
+  - DOMAIN-SUFFIX,miru-repo.0n0.dev
