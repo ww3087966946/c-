@@ -415,5 +415,6 @@ payload:
   - DOMAIN-KEYWORD,steamcommunity
   - DOMAIN-SUFFIX,hanime1.me
   - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,google.com
 # miru仓库
   - DOMAIN-SUFFIX,miru-repo.0n0.dev
