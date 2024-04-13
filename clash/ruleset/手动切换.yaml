@@ -418,3 +418,5 @@ payload:
   - DOMAIN-SUFFIX,google.com
 # miru仓库
   - DOMAIN-SUFFIX,miru-repo.0n0.dev
+# apkhup
+  - DOMAIN-SUFFIX,apkhub
