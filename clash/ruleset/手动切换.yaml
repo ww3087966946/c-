@@ -420,3 +420,5 @@ payload:
   - DOMAIN-SUFFIX,miru-repo.0n0.dev
 # apkhup
   - DOMAIN-KEYWORD,apkhub
+  - DOMAIN-KEYWORD,apksuper
+  - DOMAIN-KEYWORD,amap
