@@ -418,7 +418,8 @@ payload:
   - DOMAIN-SUFFIX,google.com
 # miru仓库
   - DOMAIN-SUFFIX,miru-repo.0n0.dev
-# apkhup
+# apk商店
   - DOMAIN-KEYWORD,apkhub
   - DOMAIN-KEYWORD,apksuper
   - DOMAIN-KEYWORD,amap
+  - DOMAIN-KEYWORD,winudf
