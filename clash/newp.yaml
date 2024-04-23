@@ -310,7 +310,6 @@ rule-providers:
 
 rules:
   - DOMAIN-SUFFIX,www.google.com,🚀 手动切换
-  - RULE-SET,手动切换,🚀 手动切换
   - RULE-SET,电报信息,📲 电报信息
   - RULE-SET,谷歌FCM,📢 谷歌FCM
   - RULE-SET,TikTok,🎶 TikTok
@@ -332,4 +331,5 @@ rules:
   - RULE-SET,苹果服务,🍎 苹果服务
   - RULE-SET,全球直连,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
+  - RULE-SET,手动切换,🚀 手动切换
   - MATCH,🐟 漏网之鱼
