@@ -4,6 +4,22 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter:
+  - "*.lan"
+  - "*.ntp.*"
+  nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 223.5.5.5
+  fallback: []
+  fake-ip-filter:
+  - dns.msftncsi.com
+  - www.msftncsi.com
+  - www.msftconnecttest.com
 proxy-groups:
   - name: 🚀 手动切换
     type: select
