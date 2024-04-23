@@ -4,6 +4,31 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+dns:
+  enable: true
+  prefer-h3: false
+  default-nameserver:
+    - '8.8.8.8#match'
+    - 1.1.1.1
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: redir-host
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter:
+    - "*.lan"
+    - "*.ntp.*"
+  nameserver:
+    - 9.9.9.9
+    - 94.140.14.14
+    - '8.8.8.8#match'
+  # proxy-server-nameserver:
+    # - 112.215.198.248
+    # - "[2400:9800:2:2::246]"
+  # nameserver-policy:
+    # "geosite:category-ads-all": rcode://success
+    # "geosite:nameserver-policy":
+    # - 112.215.198.248
+    # - '[2404:c0:1000::a:
 proxy-groups:
   - name: 🚀 手动切换
     type: select
