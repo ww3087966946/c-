@@ -8,9 +8,6 @@ dns:
   enable: true
   enhanced-mode: fake-ip
   fake-ip-range: 28.0.0.1/8
-  fake-ip-filter:
-  - "*.lan"
-  - "*.ntp.*"
   nameserver:
   - 8.8.8.8
   - 1.1.1.1
