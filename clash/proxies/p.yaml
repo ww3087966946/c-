@@ -26,17 +26,8 @@ proxies:
   - {"type":"vmess","name":"移动4g专用02|811","server":"183.236.51.59","port":"46602","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"移动4g专用02|692","server":"183.237.20.158","port":"41042","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"日本11|700","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.82065046.xyz"}},"server":"104.219.208.81","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-#  2024.05.27
-  - {"type":"vmess","name":"移动4g专用02|693","server":"183.237.20.158","port":"40595","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用03|102_2","server":"120.210.205.236","port":"47459","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"tcp"}
-#  5月18日
-  - {"type":"vmess","name":"移动4g专用02|692_1","server":"183.237.20.158","port":"41042","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp","index":14}
-  - {"type":"vmess","name":"移动4g专用02|693_1","server":"183.237.20.158","port":"40595","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp","index":18}
-#  5月12日
-  - {"type":"vmess","name":"移动4g专用03|102","server":"120.210.205.236","port":"47459","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"tcp","index":32}
 #  4月20日更新
-  - {"type":"vmess","name":"美国03|76_1","ws-opts":{"path":"/path/010327320000","headers":{"host":"www.46099997.xyz"}},"server":"64.32.24.248","port":"443","uuid":"b9a305a9-1ff2-4ec1-b338-933555833baa","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":77}
-  - {"type":"vmess","name":"波兰01|164_2","ws-opts":{"path":"/path/121517171119","headers":{"host":"www.34750699.xyz"}},"server":"5.133.8.237","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":79}
-  - {"type":"vmess","name":"罗马尼亚01|419_1","ws-opts":{"path":"/path/121517171119","headers":{"host":"www.57301760.xyz"}},"server":"89.46.103.202","port":"443","uuid":"170d9389-5aa0-46e9-a06f-8355e54240cc","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":80}
-  - {"type":"vmess","name":"移动4g专用01|695_1","server":"120.233.43.37","port":"54629","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp","index":81}
-  - {"type":"vmess","name":"美国03|189_2","ws-opts":{"path":"/path/121517171119","headers":{"host":"www.12912717.xyz"}},"server":"170.178.167.131","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":82}
+  - {"type":"vmess","name":"美国03|76","ws-opts":{"path":"/path/010327320000","headers":{"host":"www.46099997.xyz"}},"server":"64.32.24.248","port":"443","uuid":"b9a305a9-1ff2-4ec1-b338-933555833baa","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":77}
+  - {"type":"vmess","name":"波兰01|164","ws-opts":{"path":"/path/121517171119","headers":{"host":"www.34750699.xyz"}},"server":"5.133.8.237","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":79}
+  - {"type":"vmess","name":"罗马尼亚01|419","ws-opts":{"path":"/path/121517171119","headers":{"host":"www.57301760.xyz"}},"server":"89.46.103.202","port":"443","uuid":"170d9389-5aa0-46e9-a06f-8355e54240cc","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":80}
+  - {"type":"vmess","name":"美国03|189","ws-opts":{"path":"/path/121517171119","headers":{"host":"www.12912717.xyz"}},"server":"170.178.167.131","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true,"index":82}
