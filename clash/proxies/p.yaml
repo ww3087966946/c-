@@ -1,5 +1,13 @@
 proxies:
-#  2023.06.04
+#  2024.06.05
+  - {"type":"vmess","name":"中国香港02|912","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.27984288.xyz"}},"server":"134.122.184.7","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"移动4g专用01|805","server":"183.238.90.3","port":"41766","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|720","server":"183.238.90.3","port":"35576","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用02|914","server":"183.236.51.23","port":"38897","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用02|915","server":"120.233.15.63","port":"39041","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"日本11|741","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.88933034.xyz"}},"server":"107.148.7.245","port":"30001","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"乌克兰01|174","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.65756357.xyz"}},"server":"176.103.54.155","port":"30000","uuid":"f2f693b9-142a-419f-954d-311f736414d9","alterId":"64","cipher":"auto","network":"ws","tls":true}
+#  2024.06.04
   - {"type":"vmess","name":"中国台湾01|896","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.60548529.xyz"}},"server":"61.220.129.188","port":"30001","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"中国香港02|910","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.58973978.xyz"}},"server":"134.122.184.97","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"中国香港02|911","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.44700504.xyz"}},"server":"134.122.184.26","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
