@@ -28,7 +28,6 @@ payload:
   - DOMAIN-SUFFIX,tw
   - DOMAIN-SUFFIX,uk
   - DOMAIN-KEYWORD,1e100
-  - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,avtb
   - DOMAIN-KEYWORD,beetalk
@@ -43,10 +42,8 @@ payload:
   - DOMAIN-KEYWORD,porn
   - DOMAIN-KEYWORD,sci-hub
   - DOMAIN-KEYWORD,spotify
-  - DOMAIN-KEYWORD,telegram
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
-  - DOMAIN-KEYWORD,youtube
   - DOMAIN-SUFFIX,4sqi.net
   - DOMAIN-SUFFIX,a248.e.akamai.net
   - DOMAIN-SUFFIX,adobedtm.com
@@ -241,9 +238,6 @@ payload:
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
   - IP-CIDR,74.125.0.0/16,no-resolve
@@ -293,8 +287,6 @@ payload:
   - IP-CIDR,119.235.236.0/23,no-resolve
   - IP-CIDR,147.92.128.0/17,no-resolve
   - IP-CIDR,203.104.128.0/19,no-resolve
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
@@ -367,10 +359,6 @@ payload:
   - DOMAIN-SUFFIX,twimg.org
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
-  - DOMAIN-SUFFIX,telegra.ph
-  - DOMAIN-SUFFIX,telegram.me
-  - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,telesco.pe
   - IP-CIDR,91.108.0.0/16,no-resolve
   - IP-CIDR,109.239.140.0/24,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
@@ -415,7 +403,6 @@ payload:
   - DOMAIN-KEYWORD,steamcommunity
   - DOMAIN-SUFFIX,hanime1.me
   - DOMAIN-SUFFIX,e-hentai.org
-  - DOMAIN-SUFFIX,www.google.com
 # miru仓库
   - DOMAIN-SUFFIX,miru-repo.0n0.dev
 # apk商店
@@ -424,3 +411,5 @@ payload:
   - DOMAIN-KEYWORD,amap
   - DOMAIN-KEYWORD,winudf
   - DOMAIN-KEYWORD,farsroid
+# 机场
+  - DOMAIN-KEYWORD,赔钱机场
