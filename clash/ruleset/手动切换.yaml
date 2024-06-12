@@ -1,4 +1,4 @@
-#去重内容(手动切换)
+payload:
   - DOMAIN-SUFFIX,www.ppsspp.org
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adguard.org
