@@ -1,4 +1,14 @@
 proxies:
+# 2024.10.05
+  - {"type":"vmess","name":"专线01|878","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.83324239.xyz"}},"server":"156.249.18.71","port":"41006","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"移动4g专用01|930","server":"183.237.20.158","port":"49310","uuid":"b49905f3-efc7-4e1a-8435-f5f66857516d","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|928","server":"183.238.90.3","port":"41776","uuid":"9d681db5-4396-47ee-96ec-bd53fd0a9e78","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|927","server":"183.238.202.171","port":"41776","uuid":"9d681db5-4396-47ee-96ec-bd53fd0a9e78","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用01|929","server":"120.232.153.8","port":"49310","uuid":"b49905f3-efc7-4e1a-8435-f5f66857516d","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用02|925","server":"183.237.84.51","port":"59454","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用02|924","server":"183.237.84.53","port":"59454","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用02|922","server":"120.198.44.126","port":"39041","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"移动4g专用03|102","server":"120.210.205.134","port":"47459","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"tcp"}
 # 2024.09.27
   - {"type":"vmess","name":"中国台湾01|926","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.19999131.xyz"}},"server":"103.158.228.67","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"移动4g专用01|839","server":"183.238.90.3","port":"46920","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
@@ -7,9 +17,6 @@ proxies:
   - {"type":"vmess","name":"移动4g专用01|807","server":"183.238.202.171","port":"32003","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"移动4g专用01|805","server":"183.238.90.3","port":"41766","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"移动4g专用01|840","server":"183.238.202.171","port":"40066","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用02|925","server":"183.237.84.51","port":"59454","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用02|924","server":"183.237.84.53","port":"59454","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"移动4g专用03|102","server":"120.210.205.134","port":"47459","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"tcp"}
 # 2024.09.20
   - {"type":"vmess","name":"中国台湾01|896","ws-opts":{"path":"/path/003500111307","headers":{"host":"www.60548529.xyz"}},"server":"61.220.129.192","port":"30003","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"移动4g专用01|694","server":"120.232.153.8","port":"40944","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
